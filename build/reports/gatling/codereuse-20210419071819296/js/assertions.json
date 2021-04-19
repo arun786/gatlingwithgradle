@@ -1,0 +1,10 @@
+{
+  "simulation": "CodeReuse",
+  "simulationId": "codereuse",
+  "start": 1618816699296,
+  "description": "",
+  "scenarios": ["Code resue"],
+  "assertions": [
+
+  ]
+}

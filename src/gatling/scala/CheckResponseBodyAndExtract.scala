@@ -22,12 +22,19 @@ class CheckResponseBodyAndExtract extends Simulation {
       .check(status.is(200))
       .check(jsonPath("$[5].id")
         .saveAs("name")))
+    .exec { session => println(session); session }
 
     .exec(http("Get specific Patient")
       .get("get/${name}")
       .check(status.is(200))
       .check(jsonPath("$.name")
-        .is("Adwiti")))
+        .is("Adwiti"))
+      .check(bodyString.saveAs("responseBody")))
+    .exec {
+      session =>
+        println(session("responseBody").as[String]);
+        session
+    }
 
   setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
 }
