@@ -7,7 +7,6 @@ class MyFirstTestClass extends Simulation {
 
   val httpConf: HttpProtocolBuilder = http.baseUrl("http://localhost:8080/patient/")
     .header("Accept", "application/json")
-    //.proxy(Proxy("localhost",8866))
 
   val scn: ScenarioBuilder = scenario("My First Test").exec(http("Create Patients").get("get/1"))
 
