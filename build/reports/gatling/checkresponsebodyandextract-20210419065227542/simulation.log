@@ -1,0 +1,6 @@
+RUN	CheckResponseBodyAndExtract	checkresponsebodyandextract	1618815147542	 	3.5.1
+USER	My First Test	START	1618815149877
+REQUEST		Get a specific patient	1618815149894	1618815152894	OK	 
+REQUEST		Get all the patient	1618815152935	1618815152940	OK	 
+REQUEST		Get specific Patient	1618815152955	1618815152959	OK	 
+USER	My First Test	END	1618815152962
