@@ -16,7 +16,7 @@ build.gradle
 
 Various ways to Test Rest service
 
-Step 1
+Calling an Get end Point with a path variable as 1
 
     import io.gatling.core.Predef._
     import io.gatling.core.structure.ScenarioBuilder
@@ -33,7 +33,7 @@ Step 1
       setUp(scn.inject(atOnceUsers(500))).protocols(httpConf)
     }
 
-Step 2 
+Calling two end points for Get.
 
     import io.gatling.core.Predef.configuration
         import io.gatling.core.scenario.Simulation
@@ -60,7 +60,7 @@ Step 2
           setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
         }
     
-Step 3
+Calling Get end Point and check the status which is returned
     
         import io.gatling.core.Predef.configuration
         import io.gatling.core.scenario.Simulation
@@ -87,7 +87,7 @@ Step 3
           setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
         }
 
-Step 4
+Calling Get end Point and check the status and response which is returned
 
     import io.gatling.core.scenario.Simulation
     import io.gatling.http.Predef._
@@ -130,7 +130,7 @@ Step 4
       setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
     }
 
-Step 5
+how to reuse the code
 
     import io.gatling.core.Predef.configuration
     import io.gatling.core.scenario.Simulation
@@ -169,7 +169,7 @@ Step 5
       setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
     }
 
-Step 6
+How to read from csv feeder
 
     import io.gatling.core.scenario.Simulation
     import io.gatling.http.Predef._
