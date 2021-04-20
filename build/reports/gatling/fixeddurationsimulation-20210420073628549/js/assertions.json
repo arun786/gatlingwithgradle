@@ -1,0 +1,10 @@
+{
+  "simulation": "FixedDurationSimulation",
+  "simulationId": "fixeddurationsimulation",
+  "start": 1618904188549,
+  "description": "",
+  "scenarios": ["Load Simulator for ever until max time specified"],
+  "assertions": [
+
+  ]
+}

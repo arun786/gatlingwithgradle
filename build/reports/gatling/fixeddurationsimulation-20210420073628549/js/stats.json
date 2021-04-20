@@ -6,8 +6,8 @@
 "stats": {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 6565,
-        "ok": 6565,
+        "total": 31003,
+        "ok": 31003,
         "ko": 0
     },
     "minResponseTime": {
@@ -16,8 +16,8 @@
         "ko": 0
     },
     "maxResponseTime": {
-        "total": 70,
-        "ok": 70,
+        "total": 173,
+        "ok": 173,
         "ko": 0
     },
     "meanResponseTime": {
@@ -41,18 +41,18 @@
         "ko": 0
     },
     "percentiles3": {
+        "total": 3,
+        "ok": 3,
+        "ko": 0
+    },
+    "percentiles4": {
         "total": 4,
         "ok": 4,
         "ko": 0
     },
-    "percentiles4": {
-        "total": 6,
-        "ok": 6,
-        "ko": 0
-    },
     "group1": {
     "name": "t < 800 ms",
-    "count": 6565,
+    "count": 31003,
     "percentage": 100
 },
     "group2": {
@@ -71,8 +71,8 @@
     "percentage": 0
 },
     "meanNumberOfRequestsPerSecond": {
-        "total": 234.46428571428572,
-        "ok": 234.46428571428572,
+        "total": 269.5913043478261,
+        "ok": 269.5913043478261,
         "ko": 0
     }
 },
@@ -85,8 +85,8 @@
 "stats": {
     "name": "Get all Patients, 1st call",
     "numberOfRequests": {
-        "total": 1515,
-        "ok": 1515,
+        "total": 7578,
+        "ok": 7578,
         "ko": 0
     },
     "minResponseTime": {
@@ -95,43 +95,43 @@
         "ko": 0
     },
     "maxResponseTime": {
-        "total": 70,
-        "ok": 70,
+        "total": 173,
+        "ok": 173,
         "ko": 0
     },
     "meanResponseTime": {
-        "total": 3,
-        "ok": 3,
-        "ko": 0
-    },
-    "standardDeviation": {
-        "total": 5,
-        "ok": 5,
-        "ko": 0
-    },
-    "percentiles1": {
         "total": 2,
         "ok": 2,
         "ko": 0
     },
+    "standardDeviation": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
     "percentiles2": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "percentiles3": {
         "total": 3,
         "ok": 3,
         "ko": 0
     },
-    "percentiles3": {
+    "percentiles4": {
         "total": 5,
         "ok": 5,
         "ko": 0
     },
-    "percentiles4": {
-        "total": 8,
-        "ok": 8,
-        "ko": 0
-    },
     "group1": {
     "name": "t < 800 ms",
-    "count": 1515,
+    "count": 7578,
     "percentage": 100
 },
     "group2": {
@@ -150,8 +150,8 @@
     "percentage": 0
 },
     "meanNumberOfRequestsPerSecond": {
-        "total": 54.107142857142854,
-        "ok": 54.107142857142854,
+        "total": 65.89565217391305,
+        "ok": 65.89565217391305,
         "ko": 0
     }
 }
@@ -163,8 +163,8 @@
 "stats": {
     "name": "Get specific Patients",
     "numberOfRequests": {
-        "total": 5050,
-        "ok": 5050,
+        "total": 23425,
+        "ok": 23425,
         "ko": 0
     },
     "minResponseTime": {
@@ -173,8 +173,8 @@
         "ko": 0
     },
     "maxResponseTime": {
-        "total": 25,
-        "ok": 25,
+        "total": 12,
+        "ok": 12,
         "ko": 0
     },
     "meanResponseTime": {
@@ -209,7 +209,7 @@
     },
     "group1": {
     "name": "t < 800 ms",
-    "count": 5050,
+    "count": 23425,
     "percentage": 100
 },
     "group2": {
@@ -228,8 +228,8 @@
     "percentage": 0
 },
     "meanNumberOfRequestsPerSecond": {
-        "total": 180.35714285714286,
-        "ok": 180.35714285714286,
+        "total": 203.69565217391303,
+        "ok": 203.69565217391303,
         "ko": 0
     }
 }

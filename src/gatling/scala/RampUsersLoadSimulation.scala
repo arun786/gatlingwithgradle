@@ -11,7 +11,7 @@ import scala.concurrent.duration.DurationInt
 /**
  * @author arun on 4/19/21
  */
-class BasicLoadSimulation extends Simulation {
+class RampUsersLoadSimulation extends Simulation {
 
   val httpConf: HttpProtocolBuilder = http.baseUrl("http://localhost:8080/patient/")
     .header("Accept", "application/json")
@@ -35,7 +35,6 @@ class BasicLoadSimulation extends Simulation {
 
   setUp(scn.inject(
     nothingFor(5),
-    atOnceUsers(5),
-    rampUsers(1000) during (120)).protocols(httpConf.inferHtmlResources()))
+    constantUsersPerSec(20) during (10 seconds)).protocols(httpConf.inferHtmlResources()))
 
 }
