@@ -27,7 +27,7 @@ class CodeReuse extends Simulation {
     }
   }
 
-  val scn: ScenarioBuilder = scenario("Code resue")
+  val scn: ScenarioBuilder = scenario("Code Re-Use")
     .exec(getAllPatients()).pause(5)
     .exec(getSpecificPatient()).pause(3000.millisecond)
     .exec(getSpecificPatient())

@@ -13,6 +13,9 @@ build.gradle
         logHttp = 'NONE'
     }
     
+For executing the script from Command Line, we have to use the below
+
+./gradlew clean gatlingRun-CodeReuse
 
 Various ways to Test Rest service
 
