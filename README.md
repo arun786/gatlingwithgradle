@@ -15,7 +15,9 @@ build.gradle
     
 For executing the script from Command Line, we have to use the below
 
-./gradlew clean gatlingRun-CodeReuse
+    ./gradlew clean gatlingRun-CodeReuse
+    
+    CoreReuse being the class under source directory scala
 
 Various ways to Test Rest service
 
